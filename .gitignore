@@ -4,11 +4,10 @@
 *.64xfasl
 *.ofasl
 *.*ufasl
-#*#
+*.lisp#
+*.zip
 
 .DS_Store
 
 # don't track auto-generated html's:
-/**/reference/*.*
-*.lisp#
-*.zip
+/**/reference-pages/*.*
